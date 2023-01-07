@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="search for fun">
+    <meta name="keywords" content="omdbapi, search movie, search show">
+    <meta name="author" content="Khee Wong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>OMBDapi</title>
+</head>
+
+<body >
+    <div class="container-fluid">
+        <div   class="top-bar shadow rounded rounded-5 my-4 ">
+            <form id="form-search">
+                <input id="searchInput" placeholder="Search movie or show" type="search" role="search"
+                    class="search-input border-0 " autoComplete="off" />
+            </form>
+            <p id="resultsFond" class="mb-0">Results:0</p>
+        </div>
+    
+        <div id="searchResults" class="results gap-3 pb-5">
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4  "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+            <div class="entity border rounded rounded-4 h-100 shadow">
+                <div id="image-place" class="rounded rounded-4 mt-0 rounded-bottom placeholder-wave placeholder "></div>
+                <h5 class="title placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                </h5>
+                <p class="type placeholder-glow">
+                    <span class="placeholder col-4 "></span>
+                </p>
+            </div>
+        </div>
+        <div  class="d-flex align-items-center justify-content-center">
+            <div class="pagination">
+                <ul> <!--pages or li are comes from javascript --> </ul>
+            </div>
+    </div>
+    <!-- modal body-->
+
+    <div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog"
+        aria-bs-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen " role="document">
+            <div class="modal-content text-white font-monospace " style=" background-color: #002D62;">
+                <button type="button" class="btn btn-close-white mx-5 ms-auto   fs-3" data-bs-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div id="modal-body" class="modal-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
