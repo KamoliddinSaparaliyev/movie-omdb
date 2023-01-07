@@ -7,7 +7,7 @@ const formSearch = document.querySelector('#form-search'),
     pageItem = document.querySelector('.page-item'),
     pagination = document.querySelector('#pagination');
 
-let inputValue = "world";
+let inputValue = "The Godfather";
 let page = 1;
 
 
